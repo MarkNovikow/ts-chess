@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Calibri, serif;
 }
 
 .app {
@@ -32,11 +33,11 @@
 }
 
 .black {
-    background: deepskyblue;
+    background: #b68963;
 }
 
 .white {
-    background: #ffa1a1;
+    background: #d2b896;
 }
 
 .selected {
@@ -51,17 +52,52 @@
 }
 
 .can-be-attacked {
-    background: #0fcc0f;
+    background: rgba(15, 204, 15, 0.4);
 }
 
 .turn {
     font-size: 24px;
     font-weight: 400;
     text-transform: uppercase;
-    font-family: Calibri, serif;
     position: absolute;
-    top: 50px;
+    top: 20px;
     left: 0;
     right: 0;
-    text-align: center;;
+    text-align: center;
+}
+
+.lost {
+    background: rgba(182, 137, 99, 0.3);
+    min-height: 256px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lost-figure {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.timer {
+    position: absolute;
+    top: 70px;
+    text-align: center;
+}
+
+.timer h2 {
+    font-weight: 400;
+}
+
+.restart {
+    border: none;
+    background: rgba(182, 137, 99, 0.3);
+    outline: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
 }
