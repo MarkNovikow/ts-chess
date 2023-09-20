@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    width: calc(64px * 8);
+    height: calc(64px * 8);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell img {
+    width: 50px;
+    position: relative;
+}
+
+.black {
+    background: deepskyblue;
+}
+
+.white {
+    background: #ffa1a1;
+}
+
+.selected {
+    background: brown;
+}
+
+.available {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #0fcc0f;
+}
+
+.can-be-attacked {
+    background: #0fcc0f;
+}
