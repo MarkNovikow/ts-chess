@@ -53,3 +53,15 @@
 .can-be-attacked {
     background: #0fcc0f;
 }
+
+.turn {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Calibri, serif;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;;
+}

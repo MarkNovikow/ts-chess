@@ -39,7 +39,7 @@ export class Figure {
     }
 
     moveFigure(target: Cell) {
-        
+        this.cell.board.falseEnPass();
     }
 }
 
