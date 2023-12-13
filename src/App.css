@@ -85,6 +85,7 @@
 .timer {
     position: absolute;
     top: 70px;
+    left: 50px;
     text-align: center;
 }
 
